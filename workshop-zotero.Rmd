@@ -1,0 +1,59 @@
+---
+title: "Menggunakan Zotero"
+subtitle: "JAKI Workshop"
+author: "Rizqy Amelia Zein"
+date: "2019/03/22 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
+    css: ["default", "rladies", "rladies-fonts"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      ratio: '16:9'
+      highlightLines: true
+      countIncrementalSlides: false
+vignette: >
+  %\VignetteIndexEntry{libs}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+class: inverse, middle, title-slide, spaced
+
+```{r setup, include=FALSE}
+library(fontawesome)
+library(tidyverse)
+library(emo)
+options(htmltools.dir.version = FALSE, width=120)
+```
+
+class: title-slide, spaced
+
+<img src="libs/unair.png" style="width:15%;" class="fancyimage"/> <img src="libs/STUA.jpg" style="width:8%;" class="fancyimage"/> <img src="libs/ina-logo.jpg" style="width:7%;" class="fancyimage"/> <img src="libs/igdore.png" style="width:23%;" class="fancyimage"/>
+
+# Menggunakan Zotero sebagai *Reference Manager*
+## Workshop JAKI & The Conversation Indonesia Masterclass
+<br>
+### <b>Rizqy Amelia Zein</b>
+* Dosen, [Fakultas Psikologi, Universitas Airlangga](https://psikologi.unair.ac.id)
+* Anggota, [#SainsTerbuka Airlangga](https://sainsterbukaua.github.io/) `r fa("universal-access")`
+* Relawan, [INA-rxiv](https://inarxiv.id) 
+* Researcher-in-training, [Institute for Globally Distributed Open Research and Education (IGDORE)](https://igdore.org/)
+
+---
+
+class: center, middle
+
+# Menghubungi saya?  
+
+`r fa("paper-plane")` <a href="mailto:amelia.zein@psikologi.unair.ac.id"></i>&nbsp; amelia.zein@psikologi.unair.ac.id</a>
+`r fa("twitter")` [@ameliazein](https://twitter.com/ameliazein)
+`r fa("github")` [@rameliaz](https://github.com/rameliaz)
+`r fa("desktop")` https://rameliaz.github.io
+
+
+Materi dsalam paparan ini berlisensi `r fa("creative-commons")`0 1.0 dan tersedia secara terbuka di `r fa("github")` [repositori](https://github.com/sainsterbukaUA/materi-presentasi).
+
+---
+

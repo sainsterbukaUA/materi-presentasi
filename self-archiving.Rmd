@@ -1,0 +1,257 @@
+---
+title: "Pengarsipan Mandiri"
+subtitle: "JAKI Workshop & The Conversation Masterclass"
+author: "Rizqy Amelia Zein"
+date: "2019/03/22 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
+    css: ["default", "rladies", "rladies-fonts"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      ratio: '16:9'
+      highlightLines: true
+      countIncrementalSlides: false
+vignette: >
+  %\VignetteIndexEntry{libs}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+class: inverse, middle, title-slide, spaced
+
+```{r setup, include=FALSE}
+library(fontawesome)
+library(tidyverse)
+library(emo)
+options(htmltools.dir.version = FALSE, width=120)
+```
+
+class: title-slide, spaced
+
+<img src="libs/unair.png" style="width:15%;" class="fancyimage"/> <img src="libs/STUA.jpg" style="width:8%;" class="fancyimage"/> <img src="libs/ina-logo.jpg" style="width:7%;" class="fancyimage"/> <img src="libs/igdore.png" style="width:23%;" class="fancyimage"/>
+
+# Pengarsipan Mandiri (*Self-Archiving*)
+## Workshop JAKI & The Conversation Indonesia Masterclass
+<br>
+### <b>Rizqy Amelia Zein</b>
+* Dosen, [Fakultas Psikologi, Universitas Airlangga](https://psikologi.unair.ac.id)
+* Anggota, [#SainsTerbuka Airlangga](https://sainsterbukaua.github.io/) `r fa("universal-access")`
+* Relawan, [INA-rxiv](https://inarxiv.id) 
+* Researcher-in-training, [Institute for Globally Distributed Open Research and Education (IGDORE)](https://igdore.org/)
+
+---
+
+class: center, middle
+
+# Menghubungi saya?  
+
+`r fa("paper-plane")` <a href="mailto:amelia.zein@psikologi.unair.ac.id"></i>&nbsp; amelia.zein@psikologi.unair.ac.id</a>
+`r fa("twitter")` [@ameliazein](https://twitter.com/ameliazein)
+`r fa("github")` [@rameliaz](https://github.com/rameliaz)
+`r fa("desktop")` https://rameliaz.github.io
+
+
+Materi dalam paparan ini berlisensi `r fa("creative-commons")` 1.0 (*public domain*) dan tersedia di laman web #SainsTerbuka Airlangga **(https://sainsterbukaua.github.io/activities/)**. 
+Kode tersedia secara terbuka di [repositori](https://github.com/sainsterbukaUA/materi-presentasi) `r fa("github")` saya.
+
+---
+
+class: inverse
+
+# Topik Utama 
+
+.pull-left[
+* Mengapa karya ilmiah harus terbuka?
+* Beberapa pilihan akses terbuka
+* Kisah sepotong roti dan pengarsipan
+* Anatomi *pre-print*
+* Manfaat mengarsipkan karya secara mandiri
+* Beberapa cara mengarsipkan karya secara mandiri
+]
+
+
+.pull-right[
+![](https://media.giphy.com/media/xT5LMPaJfWTn9HR23m/giphy.gif)
+]
+
+---
+
+# Mengapa karya ilmiah sebaiknya dapat diakses terbuka?
+
+.pull-left[ 
+* Ilmu pengetahuan adalah **komoditas milik publik**, sehingga tak boleh hanya disimpan, digunakan, dan dimanfaatkan oleh seorang/sekelompok orang untuk kepentingan pribadi/kelompok tertentu
+* Apabila karya kita dapat diakses terbuka, maka akan **lebih mudah ditemukan** oleh yang pembaca yang membutuhkan
+* Akses terbuka pada karya ilmiah dapat **mengakselerasi inovasi dan perkembangan sains**, **memperluas dampak riset**, dan **membuka kesempatan kolaborasi**
+* Investasi dana riset baru akan **kelihatan hasilnya**, kalau hasil riset dikomunikasikan di *outlet* yang dapat diakses secara terbuka
+* Model bisnis publikasi cenderung **mahal dan tidak efisien** (butuh waktu lama untuk diseminasi)
+* **Sumberdaya** lembaga penelitian/universitas **terbatas**, tidak mungkin bisa diharapkan untuk terus membayar biaya langganan dalam jangka panjang
+]
+
+.pull-right[
+<img src="libs/paywall-themovie.jpg" style="width:100%;" class="fancyimage"/>
+]
+
+---
+
+class: middle, inverse, center
+
+# *Gold* dan *Green Open Access*
+
+<img src="libs/gold_green.jpg" style="width:60%;" class="fancyimage"/>
+
+---
+
+class: center, middle, inverse, spaced
+
+# Pengarsipan dan Kisah Sepotong Roti<sup>*</sup>
+
+<img src="libs/sepotong_roti.jpeg" style="width:60%;" class="fancyimage"/>
+
+.footnote[
+[*] [Irawan, 2019](https://medium.com/open-science-indonesia/proses-pembuatan-roti-dan-pengarsipan-mandiri-bcf22cdd5d0)
+]
+
+---
+
+# Beberapa istilah penting
+
+* **Pre-print** (*author original* atau *author's version*)
+  - Merupakan naskah draf yang **pertama kali diserahkan** kepada editor jurnal dan belum tersentuh proses editorial ataupun tinjauan sejawat (*peer-review*) sama sekali.
+
+--
+
+* **Post-print** (*accepted manuscript*, *second-stage manuscript*, atau *final draft*)
+  - Merupakan naskah yang **sudah melalui** proses tinjauan sejawat dan dinyatakan **diterima** untuk dipublikasikan.
+
+--
+
+* **Publisher's version** (*version of record* atau *published version*)
+  - Merupakan naskah final yang **sudah diterbitkan**, sudah di *typeset* (ditata letak), ditinjau akhir (*copyediting*), dan sudah lengkap bersama dengan komponen penyerta (*supplementary materials*).
+
+--
+
+* **Embargo** (*delayed open access*)
+  - Beberapa jurnal komersial berbasis langganan menerapkan kebijakan untuk membuat kontennya dapat **diakses terbuka** setelah **melewati jangka waktu tertentu**. Biasanya sekitar 1-5 tahun, meskipun ada beberapa jurnal yang menerapkan jangka waktu yang lebih pendek atau lebih panjang, misalnya 3 bulan atau bahkan 10 tahun.
+
+---
+
+class: center, middle, inverse
+
+# Cek kebijakan jurnal!
+
+Sebelum mengarsipkan, cek kebijakan jurnal terlebih dahulu di...
+
+--
+
+<img src="libs/sherpa.jpg" style="width:60%;" class="fancyimage"/>
+
+--
+
+# **http://sherpa.ac.uk/romeo/index.php**
+
+---
+
+class: center, middle
+
+# Mengarsipkan *pre/post-print* pada jurnal dengan biaya langganan (*paywalled*)
+
+
+<img src="libs/deposit.jpg" style="width:80%;" class="fancyimage"/>
+
+---
+
+class: center, middle, inverse, spaced
+
+# Anatomi *pre-print*
+
+<img src="libs/anatomy-preprint.jpg" style="width:35%;" class="fancyimage"/>
+
+---
+
+class: center, middle
+
+# Apa manfaatnya?
+
+<img src="libs/benefit-preprint.jpg" style="width:80%;" class="fancyimage"/>
+
+---
+
+# Bagaimana caranya?
+
+--
+
+Unggah naskah di *repositori kampus* atau *pre-print server* 
+
+--
+
+<img src="libs/preprint-server.jpg" style="width:70%;" class="fancyimage"/>
+
+---
+
+class: inverse
+
+# *Pre-print server* dikelola oleh orang Indonesia `r emo::ji("100")`
+
+.pull-left[
+
+* INA-rxiv (**https://inarxiv.id**)
+
+* Di*hosting* oleh [Center for Open Science](https://cos.io/) dan bagian dari [Open Science Framework *Pre-Prints*](https://osf.io/preprints/)
+
+* Dikelola/dimoderasi oleh orang Indonesia
+  - Relawan berasal dari berbagai universitas di Indonesia
+]
+
+.pull-right[
+
+<img src="libs/inarxiv.png" style="width:80%;" class="fancyimage"/>
+
+]
+
+---
+
+# Bagaimana cara menavigasikan INA-rxiv?
+
+.pull-left[
+* [Berkenalan dengan INA-rxiv](https://medium.com/open-science-indonesia/ina-rxiv-2a51aae69d3a)
+
+* [*Frequently asked questions* (FAQ) INA-rxiv](https://medium.com/open-science-indonesia/faq-tentang-inarxiv-85d2ba736424)
+
+* [Panduan mengunggah naskah ke INA-rxiv](https://medium.com/open-science-indonesia/ina-rxiv-membuka-penerimaan-makalah-3813becde7f)
+
+]
+
+.pull-right[
+<img src="libs/faq-inarxiv.jpg" style="width:70%;" class="fancyimage"/>
+]
+
+---
+
+class: inverse, middle, center
+
+# Yang mungkin juga menarik...
+
+Kursus Daring Terbuka Masif (KTDM - MOOC) Sains Terbuka Indonesia
+
+--
+
+<img src="libs/sainsterbukamooc.jpeg" style="width:30%;" class="fancyimage"/>
+
+--
+
+# **http://bit.ly/MOOCsainter**
+
+
+---
+
+class: center, middle
+
+# Terima kasih banyak!
+
+![](https://media.giphy.com/media/hrBSJ2So6iTo4/giphy.gif)
+
+Paparan disusun dengan menggunakan `r fa("r-project")` *package* [**xaringan**](https://github.com/yihui/xaringan) dengan *template* dan *fonts* dari `R-Ladies`.
+
+*Chakra* dibuat dengan [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), dan [R Markdown](https://rmarkdown.rstudio.com).
