@@ -1,0 +1,44 @@
+---
+title: "Critical Thinking DD Students"
+author: "Rizqy Amelia Zein"
+date: "7/18/2019"
+output: html_document
+---
+
+Critical Thinking buat anak-anak DD
+
+* Pertama fokus pada kemampuan membaca
+  - Meliputi mengekstraksi informasi kunci dari bacaan
+  - Setelah ketemu informasi kunci, kemudian mahasiswa diminta untuk membuat karangan singkat (summary) dari bacaan tersebut
+  - Ada dua latihan, dimana mahasiswa diwajibkan untuk membuat summary dalam bahasa Inggris, setidaknya salah satunya
+  - Setelah itu latihan diulangi dengan 2 bacaan yang berbeda tapi isinya bertentangan dengan bacaan yang pertama
+* Kemudian masuk ke critical thinking
+  - Summary yang pertama dan kedua dibandingkan kemudian mahasiswa diminta mengidentifikasi perbedaan diantara keduanya (*compare & contrast*)
+  - Setelah ketemu, mereka diminta untuk mensintesiskan dua argumentasi yang berseberangan tersebut sambil mengajukan tesis sendiri
+  - Refleksi... mahasiswa diminta menceritakan proses yang mereka alami dan apa yang sudah mereka pelajari
+* Project setelah kelas selesai
+  - Mahasiswa diminta untuk mengulangi proses yang sama dengan bacaan yang lebih panjang (jurnal)
+  - Fasilitator siapkan daftar pertanyaan untuk membantu mahasiswa mengekstraksi informasi dalam teks
+  - 
+  
+
+class: inverse, middle, title-slide
+
+```{r setup, include=FALSE}
+library(fontawesome)
+library(tidyverse)
+library(emo)
+options(htmltools.dir.version = FALSE, width=120)
+```
+
+class: title-slide, spaced
+
+<img src="libs/unair.png" style="width:15%;" class="fancyimage"/> <img src="libs/STUA.jpg" style="width:8%;" class="fancyimage"/> <img src="libs/igdore.png" style="width:23%;" class="fancyimage"/>
+
+# Pengarsipan Mandiri (*Self-Archiving*)
+## Workshop JAKI & The Conversation Indonesia Master Class
+<br>
+### <b>Rizqy Amelia Zein</b>
+### Dosen, [Fakultas Psikologi, Universitas Airlangga](https://psikologi.unair.ac.id)
+### Anggota, [#SainsTerbuka Airlangga](https://sainsterbukaua.github.io/) `r fa("universal-access")`
+### Researcher-in-training, [Institute for Globally Distributed Open Research and Education (IGDORE)](https://igdore.org/)

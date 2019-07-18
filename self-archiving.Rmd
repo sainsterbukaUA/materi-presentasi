@@ -2,7 +2,7 @@
 title: "Pengarsipan Mandiri"
 subtitle: "JAKI Workshop & The Conversation Masterclass"
 author: "Rizqy Amelia Zein"
-date: "2019/03/22 (updated: `r Sys.Date()`)"
+date: "2019/07/18 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     chakra: libs/remark-latest.min.js
@@ -30,7 +30,7 @@ options(htmltools.dir.version = FALSE, width=120)
 
 class: title-slide, spaced
 
-<img src="libs/unair.png" style="width:15%;" class="fancyimage"/> <img src="libs/STUA.jpg" style="width:8%;" class="fancyimage"/> <img src="libs/ina-logo.jpg" style="width:7%;" class="fancyimage"/> <img src="libs/igdore.png" style="width:23%;" class="fancyimage"/>
+<img src="libs/unair.png" style="width:15%;" class="fancyimage"/> <img src="libs/STUA.png" style="width:23%;" class="fancyimage"/> <img src="libs/ina-logo.jpg" style="width:7%;" class="fancyimage"/> <img src="libs/igdore.png" style="width:23%;" class="fancyimage"/>
 
 # Pengarsipan Mandiri (*Self-Archiving*)
 ## Workshop JAKI & The Conversation Indonesia Masterclass
@@ -92,6 +92,15 @@ class: inverse
 .pull-right[
 <img src="libs/paywall-themovie.jpg" style="width:100%;" class="fancyimage"/>
 ]
+
+---
+
+class: middle, center
+
+# Akses terbuka, singkatnya...
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L5rVH1KGBCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ---
 
