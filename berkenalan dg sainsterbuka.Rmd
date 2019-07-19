@@ -38,6 +38,8 @@ class: title-slide, spaced
 
 ## Komunitas #SainsTerbuka Airlangga `r fa("universal-access")`
 
+Hubungi kami di `r emo::ji("point_down")`
+
 * `r fa("paper-plane")` <a href="mailto:sainsterbuka.ua@gmail.com"></i>&nbsp; sainsterbuka.ua@gmail.com</a>
 * `r fa("twitter")` [@sainsterbukaUA](https://twitter.com/sainsterbukaUA)
 * `r fa("github")` [@sainsterbukaua](https://github.com/sainsterbukaua)
