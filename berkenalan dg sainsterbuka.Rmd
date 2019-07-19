@@ -1,6 +1,6 @@
 ---
 title: "Berkenalan dengan #SainsTerbuka"
-subtitle: "JAKI Workshop"
+subtitle: "Presentasi"
 author: "Rizqy Amelia Zein"
 date: "2019/07/18 (updated: `r Sys.Date()`)"
 output:
@@ -30,31 +30,31 @@ options(htmltools.dir.version = FALSE, width=120)
 
 class: title-slide, spaced
 
-<img src="libs/unair.png" style="width:15%;" class="fancyimage"/> <img src="libs/STUA.png" style="width:23%;" class="fancyimage"/> <img src="libs/ina-logo.jpg" style="width:7%;" class="fancyimage"/> <img src="libs/igdore.png" style="width:23%;" class="fancyimage"/>
+<img src="libs/unair.png" style="width:15%;" class="fancyimage"/> <img src="libs/STUA.png" style="width:23%;" class="fancyimage"/>
 
 # Berkenalan dengan #SainsTerbuka (*Open Science*)
-## Workshop [Jurnal Administrasi Kesehatan Indonesia (JAKI)](https://e-journal.unair.ac.id/jaki)
-<br>
-### <b>Rizqy Amelia Zein</b>
-* Dosen, [Fakultas Psikologi, Universitas Airlangga](https://psikologi.unair.ac.id)
-* Anggota, [#SainsTerbuka Airlangga](https://sainsterbukaua.github.io/) `r fa("universal-access")`
-* Relawan, [INA-rxiv](https://inarxiv.id) 
-* Researcher-in-training, [Institute for Globally Distributed Open Research and Education (IGDORE)](https://igdore.org/)
+
+### Dipersembahkan oleh...
+
+## Komunitas #SainsTerbuka Airlangga `r fa("universal-access")`
+
+* `r fa("paper-plane")` <a href="mailto:sainsterbuka.ua@gmail.com"></i>&nbsp; sainsterbuka.ua@gmail.com</a>
+* `r fa("twitter")` [@sainsterbukaUA](https://twitter.com/sainsterbukaUA)
+* `r fa("github")` [@sainsterbukaua](https://github.com/sainsterbukaua)
+* `r fa("desktop")` https://sainsterbukaUA.github.io
+* `r fa("facebook-f")` [Komunitas Sains Terbuka Airlangga](https://www.facebook.com/SainsTerbukaAirlangga/)
+
 
 ---
 
 class: center, middle
 
-# Menghubungi saya?  
+# Memperkenalkan #SainsTerbuka Airlangga
 
-`r fa("paper-plane")` <a href="mailto:amelia.zein@psikologi.unair.ac.id"></i>&nbsp; amelia.zein@psikologi.unair.ac.id</a>
-`r fa("twitter")` [@ameliazein](https://twitter.com/ameliazein)
-`r fa("github")` [@rameliaz](https://github.com/rameliaz)
-`r fa("desktop")` https://rameliaz.github.io
-
+<img src="libs/STUA.png" style="width:70%">
 
 Materi dalam paparan ini berlisensi `r fa("creative-commons")` 1.0 (*public domain*) dan tersedia di laman web #SainsTerbuka Airlangga **(https://sainsterbukaua.github.io/activities/)**. 
-Kode tersedia secara terbuka di [repositori](https://github.com/sainsterbukaUA/materi-presentasi) `r fa("github")` saya.
+Kode tersedia secara terbuka di [repositori](https://github.com/sainsterbukaUA/materi-presentasi) `r fa("github")` kami.
 
 ---
 
@@ -248,20 +248,6 @@ class: middle, center, inverse
 <img src="libs/osc-2.png" style="width:100%">
 
 ]
-
----
-
-class: middle, center
-
-# Memperkenalkan #SainsTerbuka Airlangga
-
-<img src="libs/STUA.png" style="width:70%">
-
-`r fa("paper-plane")` <a href="mailto:sainsterbuka.ua@gmail.com"></i>&nbsp; sainsterbuka.ua@gmail.com</a>
-`r fa("twitter")` [@sainsterbukaUA](https://twitter.com/sainsterbukaUA)
-`r fa("github")` [@sainsterbukaua](https://github.com/sainsterbukaua)
-`r fa("desktop")` https://sainsterbukaUA.github.io
-`r fa("facebook-f")` [Komunitas Sains Terbuka Airlangga](https://www.facebook.com/SainsTerbukaAirlangga/)
 
 ---
 

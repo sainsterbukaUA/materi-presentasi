@@ -1,0 +1,321 @@
+---
+title: "Berkenalan dengan #SainsTerbuka"
+subtitle: "JAKI Workshop"
+author: "Rizqy Amelia Zein"
+date: "2019/07/18 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
+    css: ["default", "rladies", "rladies-fonts"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      ratio: '16:9'
+      highlightLines: true
+      countIncrementalSlides: false
+vignette: >
+  %\VignetteIndexEntry{libs}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+class: inverse, middle, title-slide, spaced
+
+```{r setup, include=FALSE}
+library(fontawesome)
+library(tidyverse)
+library(emo)
+options(htmltools.dir.version = FALSE, width=120)
+```
+
+class: title-slide, spaced
+
+<img src="libs/unair.png" style="width:15%;" class="fancyimage"/> <img src="libs/STUA.png" style="width:23%;" class="fancyimage"/> <img src="libs/ina-logo.jpg" style="width:7%;" class="fancyimage"/> <img src="libs/igdore.png" style="width:23%;" class="fancyimage"/>
+
+# Berkenalan dengan #SainsTerbuka (*Open Science*)
+## Workshop [Jurnal Administrasi Kesehatan Indonesia (JAKI)](https://e-journal.unair.ac.id/jaki)
+<br>
+### <b>Rizqy Amelia Zein</b>
+* Dosen, [Fakultas Psikologi, Universitas Airlangga](https://psikologi.unair.ac.id)
+* Anggota, [#SainsTerbuka Airlangga](https://sainsterbukaua.github.io/) `r fa("universal-access")`
+* Relawan, [INA-rxiv](https://inarxiv.id) 
+* Researcher-in-training, [Institute for Globally Distributed Open Research and Education (IGDORE)](https://igdore.org/)
+
+---
+
+class: center, middle
+
+# Menghubungi saya?  
+
+`r fa("paper-plane")` <a href="mailto:amelia.zein@psikologi.unair.ac.id"></i>&nbsp; amelia.zein@psikologi.unair.ac.id</a>
+`r fa("twitter")` [@ameliazein](https://twitter.com/ameliazein)
+`r fa("github")` [@rameliaz](https://github.com/rameliaz)
+`r fa("desktop")` https://rameliaz.github.io
+
+
+Materi dalam paparan ini berlisensi `r fa("creative-commons")` 1.0 (*public domain*) dan tersedia di laman web #SainsTerbuka Airlangga **(https://sainsterbukaua.github.io/activities/)**. 
+Kode tersedia secara terbuka di [repositori](https://github.com/sainsterbukaUA/materi-presentasi) `r fa("github")` saya.
+
+---
+
+class: inverse
+
+# Daftar topik
+
+.pull-left[
+
+* Sains saat ini baik-baik saja kan?
+
+* Mengapa krisis kredibilitas sains adalah... krisis?
+
+* Apa? #SainsTerbuka?
+
+* Apa sih manfaatnya?
+
+* Bagaimana caranya?
+
+]
+
+.pull-right[
+
+![](https://media.giphy.com/media/tX6W5op42Lw4w/giphy.gif)
+
+]
+
+---
+
+# Sains **tidak** sedang baik-baik saja.. (1)
+
+.pull-left[
+
+* Bayangkan...
+
+  - Seandainya anda sedang berjalan di Jalan Dharmawangsa dan melihat seseorang yang mirip mantan anda. Pada **pengamatan pertama**, mungkin anda tidak terlalu yakin bahwa orang tersebut adalah mantan anda.
+  
+  - Namun setelah **observasi berkali-kali** (dengan memutar jalan dan melihatnya untuk kedua, ketiga kali), anda akan yakin bahwa orang yang anda amati tersebut adalah mantan/bukan mantan anda.
+  
+]
+
+.pull-right[
+
+![](https://media.giphy.com/media/5Y9vIdfPFvK9tVtxr3/giphy.gif)
+
+]
+
+
+---
+
+# Sains **tidak** sedang baik-baik saja.. (2)
+
+.pull-left[
+
+* Ada banyak klaim saintifik yang **gagal dikonfirmasi** kesahihannya
+  - Peneliti mendapati temuan yang berbeda, dari **dataset yang persis sama**. Temuan sangat bergantung pada kombinasi keputusan yang diambil selama proses penelitian [(*researcher degrees of freedom*)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5122713/).
+  - Ketika sekelompok peneliti mencoba untuk **mengulangi prosedur** yang sama dari penelitian yang sudah dilaporkan sebelumnya, temuan penelitian ternyata **tidak konsisten dengan studi aslinya**.
+  - Jangan-jangan, peneliti pada **'salah lihat'** [(*false positive*)](https://journals.sagepub.com/doi/full/10.1177/0956797611417632)
+  - Yang mengkhawatirkan, terjadi di banyak sekali disiplin ilmu. Termasuk [kedokteran](https://doi.org/10.1126/scitranslmed.aaf5027), [biologi](https://link.springer.com/article/10.1007/s11538-018-0497-0), [kimia](https://pubs.acs.org/doi/abs/10.1021/acs.jchemed.7b00907), [hidrologi](https://www.nature.com/articles/sdata201930?fbclid=IwAR3nMcbsjpDOQxj9jxLBxYsrdTmcjBTUq3CsWydyW0pl-PPmwKe8hiZsOQg#f2), [psikologi](https://www.pnas.org/content/115/11/2628), dan banyak lagi!
+]
+
+.pull-right[
+
+<img src="libs/rep-crisis.png" style="width:100%;" class="fancyimage"/>
+
+]
+
+---
+
+class: middle, center, inverse
+
+# File-Drawer Problem
+
+*File-drawer* adalah kecenderungan peneliti untuk 'menyimpan' hasil penelitian yang tidak ia harapkan/negatif.
+
+<img src="libs/file.jpg" style="width:35%;" class="fancyimage"/>
+
+---
+
+# Mengapa ini menjadi masalah?
+
+.pull-left[
+* Peneliti akan terdorong untuk *melakukan apa saja yang perlu*, agar studinya dapat dipublikasikan
+  - Berkaitan dengan prestise, *reward system*, dll.
+
+* Orang awam makin terdorong untuk **tidak percaya** pada sains dan ilmuwan, akibat krisis kredibilitas dan intergritas yang menjangkit komunitas akademik
+
+* Membuat **sains** dan ~~pseudosains~~ menjadi semakin sulit dibedakan
+
+* Meta-sains (sains kumulatif, misalnya, *systematic review* dan meta-analisis) menjadi sulit dipercaya karena terjadi bias publikasi (akibat *file-drawer effect*)
+
+]
+
+.pull-right[
+<img src="libs/problem.jpeg" style="width:80%;" class="fancyimage"/>
+]
+
+---
+
+class: center, middle
+
+# Apa yang sebenarnya dilakukan peneliti?
+
+<img src="libs/harking.png" style="width:60%;"/>
+
+.footnote[
+[Munafo et al. (2017)](https://www.nature.com/articles/s41562-016-0021)
+]
+
+---
+
+class: center, inverse, middle
+
+# Lalu apa yang bisa dilakukan?
+
+--
+
+<img src="libs/ops.jpg" style="width:60%;" class="fancyimage"/>
+
+--
+
+# #SainsTerbuka
+
+---
+
+# Apa? #SainsTerbuka?
+
+--
+> "...Open Science is the practice of science in such a way that others can **collaborate and contribute**, where research data, lab notes and other research processes are **freely available**, under terms that enable **reuse**, **redistribution** and **reproduction** of the research and its underlying data and methods.." [(FOSTER Open Science)](https://www.fosteropenscience.eu/foster-taxonomy/open-science-definition)
+
+--
+
+## Namun pada dasarnya
+
+Sains Terbuka berangkat pada kesadaran bahwa **ilmu pengetahuan** adalah **komoditas milik publik**, sehingga harus **terbuka** bagi publik dan **tidak seharusnya** dimanfaatkan oleh seorang/sekelompok orang saja.
+
+---
+
+class: center, inverse, middle
+
+# Taksonomi #SainsTerbuka (1)
+
+<img src="libs/umbrella.jpg" style="width:70%">
+
+---
+
+class: center, inverse, middle
+
+# [Taksonomi #SainsTerbuka (2)](https://www.fosteropenscience.eu/foster-taxonomy/open-science-definition)
+
+<img src="libs/os_taxonomy.png" style="width:80%">
+
+---
+
+class: center, middle
+
+# Siklus proses riset yang dapat **dibuka**
+
+<img src="libs/OSFIntegrations.original.png" style="width:60%">
+
+---
+
+# Keuntungan mengadopsi #SainsTerbuka (1)
+
+* Meningkatkan kualitas riset dan pelaporannya
+* Memungkinkan *networking* dan kolaborasi yang lebih luas
+* Mereformasi cara ilmuwan mengelola relasi (lebih adil, terbuka, dan egaliter)
+* Memperluas dampak riset
+* Menambah motivasi intrinsik
+
+---
+
+class: middle, center, inverse
+
+# Keuntungan mengadopsi #SainsTerbuka (2)
+
+<img src="libs/why.jpg" style="width:150%">
+
+---
+
+# Bagaimana caranya?
+
+.pull-left[
+
+<img src="libs/osc-1.png" style="width:100%">
+
+]
+
+.pull-right[
+
+<img src="libs/osc-2.png" style="width:100%">
+
+]
+
+---
+
+class: middle, center
+
+# Memperkenalkan #SainsTerbuka Airlangga
+
+<img src="libs/STUA.png" style="width:70%">
+
+`r fa("paper-plane")` <a href="mailto:sainsterbuka.ua@gmail.com"></i>&nbsp; sainsterbuka.ua@gmail.com</a>
+`r fa("twitter")` [@sainsterbukaUA](https://twitter.com/sainsterbukaUA)
+`r fa("github")` [@sainsterbukaua](https://github.com/sainsterbukaua)
+`r fa("desktop")` https://sainsterbukaUA.github.io
+`r fa("facebook-f")` [Komunitas Sains Terbuka Airlangga](https://www.facebook.com/SainsTerbukaAirlangga/)
+
+---
+
+# Manifesto #SainsTerbuka Airlangga<sup>*</sup>
+
+* Mendorong peneliti untuk menyadari potensi terjadinya bias kognitif yang berakar dari keterbatasannya pribadi ketika melaksanakan penelitian
+* Menggarisbawahi pentingnya pelatihan metodologi, utamanya bagi peneliti pemula dan mahasiswa
+* Mempromosikan kolaborasi dan pendekatan tim saintis
+* Mempromosikan praktik baik dalam meneliti (*good research practices*)
+* Mendorong peneliti untuk melakukan [pra-registrasi](https://cos.io/prereg/) dan menggunakan format [laporan teregistrasi](https://cos.io/rr/)
+* Menekankan pentingnya peningkatan kualitas pelaporan penelitian (lengkap dan *reproducible*)
+* Mendorong penggunaan piranti lunak dengan prinsip sumber terbuka (*open source*) dan *reproducible* (misalnya [`r fa("r-project")`](https://www.r-project.org/), [`r fa("python")`](https://www.python.org/) atau yang lainnya)
+* Mendorong evaluasi kinerja peneliti dengan menggunakan prinsip transparansi dan keterbukaan (contohnya [Transparency and Openness Promotion (TOP) Guideline](https://cos.io/top/) dari [Center for Open Science](https://cos.io/about/mission/)) tidak sekedar menggunakan metrik proksi, seperti H-Index, JIF, dsb.
+* Mendorong pembatasan penggunaan metrik proksi dan mendorong pengambil keputusan menggunakan metrik-metrik tersebut secara bertanggung jawab, sesuai dengan [San Fransisco Declaration of Research Assessments (SF-DORA)](https://sfdora.org/read/)
+
+.footnote[
+
+[*] Terinspirasi dari [Munafò, M. R., Nosek, B. A., Bishop, D. V., Button, K. S., Chambers, C. D., Du Sert, N. P., ... & Ioannidis, J. P. (2017). A manifesto for reproducible science. Nature Human Behaviour, 1(1), 0021.](https://www.nature.com/articles/s41562-016-0021;)
+
+]
+
+---
+
+class: middle, center
+
+# Mengubah kebiasaan memang tak mudah...
+
+<img src="libs/changing-culture.jpg" style="width:80%;" class="fancyimage"/>
+
+---
+
+class: inverse, middle, center
+
+# Yang mungkin juga menarik...
+
+Kursus Daring Terbuka Masif (KTDM - MOOC) Sains Terbuka Indonesia
+
+--
+
+<img src="libs/sainsterbukamooc.jpeg" style="width:30%;" class="fancyimage"/>
+
+--
+
+# **http://bit.ly/MOOCsainter**
+
+
+---
+
+class: center, middle
+
+# Terima kasih banyak!
+
+![](https://media.giphy.com/media/hrBSJ2So6iTo4/giphy.gif)
+
+Paparan disusun dengan menggunakan `r fa("r-project")` *package* [**xaringan**](https://github.com/yihui/xaringan) dengan *template* dan *fonts* dari `R-Ladies`.
+
+*Chakra* dibuat dengan [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), dan [R Markdown](https://rmarkdown.rstudio.com).
