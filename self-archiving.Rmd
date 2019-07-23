@@ -33,7 +33,7 @@ class: title-slide, spaced
 <img src="libs/unair.png" style="width:15%;" class="fancyimage"/> <img src="libs/STUA.png" style="width:23%;" class="fancyimage"/> <img src="libs/ina-logo.jpg" style="width:7%;" class="fancyimage"/> <img src="libs/igdore.png" style="width:23%;" class="fancyimage"/>
 
 # Pengarsipan Mandiri (*Self-Archiving*)
-## Workshop JAKI & The Conversation Indonesia Masterclass
+## Workshop JAKI & The Conversation Indonesia
 <br>
 ### <b>Rizqy Amelia Zein</b>
 * Dosen, [Fakultas Psikologi, Universitas Airlangga](https://psikologi.unair.ac.id)
@@ -261,6 +261,14 @@ Justru dengan mengunggah *pre/post-print*, kita jadi punya bukti untuk mengklaim
 --
 
 Tim Integritas Akademik yang dibentuk Kementerian Riset, Teknologi, dan Pendidikan Tinggi sudah memberikan jaminan bahwa kemiripan naskah terpublikasi dengan *pre/post-print* yang diunggah di *pre-print server* akan **mendapat pengecualian**.
+
+--
+
+**Apakah naskah pre-print/pre-print server dapat dianggap kredibel?**
+
+--
+
+Saya menguraikan beberapa argumentasi yang menguraikan fitur/informasi apa saja yang membuat *pre-print* dan *pre-print server* dianggap kredibel. Tulisan tersebut dapat [diakses di kanal Medium *Good Science Indonesia*](https://medium.com/open-science-indonesia/fitur-apa-saja-yang-membuat-pre-print-kredibel-a153fd3abd2c).
 
 ---
 
