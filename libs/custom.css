@@ -42,3 +42,10 @@ body {
 }
 
 .mjx-chtml{ font-size: 110% !important; }
+
+.remark-slide-content {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+}

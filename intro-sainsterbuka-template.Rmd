@@ -115,7 +115,7 @@ class: inverse
   - Peneliti mendapati temuan yang berbeda, dari **dataset yang persis sama**. Temuan sangat bergantung pada kombinasi keputusan yang diambil selama proses penelitian [(*researcher degrees of freedom*)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5122713/).
   - Ketika sekelompok peneliti mencoba untuk **mengulangi prosedur** yang sama dari penelitian yang sudah dilaporkan sebelumnya, temuan penelitian ternyata **tidak konsisten dengan studi aslinya**.
   - Jangan-jangan, peneliti pada **'salah lihat'** [(*false positive*)](https://journals.sagepub.com/doi/full/10.1177/0956797611417632)
-  - Yang mengkhawatirkan, terjadi di banyak sekali disiplin ilmu. Termasuk [kedokteran](https://doi.org/10.1126/scitranslmed.aaf5027), [biologi](https://link.springer.com/article/10.1007/s11538-018-0497-0), [kimia](https://pubs.acs.org/doi/abs/10.1021/acs.jchemed.7b00907), [hidrologi](https://www.nature.com/articles/sdata201930?fbclid=IwAR3nMcbsjpDOQxj9jxLBxYsrdTmcjBTUq3CsWydyW0pl-PPmwKe8hiZsOQg#f2), [psikologi](https://www.pnas.org/content/115/11/2628), dan banyak lagi!
+  - Yang mengkhawatirkan, terjadi di banyak sekali disiplin ilmu, termasuk [Psikologi](https://doi.org/10.1177/0956797611417632), [Ekonomi](https://science.sciencemag.org/content/351/6280/1433), [Ilmu Politik](http://www.journals.cambridge.org/abstract_S1049096513001716), [Biomedis](https://elifesciences.org/collections/9b1e83d1/reproducibility-project-cancer-biology), [Kedokteran](https://stm.sciencemag.org/content/8/341/341ps12), [Farmakologi](https://www.nature.com/articles/nrd3439-c1), [Hidrologi](https://www.nature.com/articles/sdata201930), [Ekologi](https://doi.org/10.1371/journal. pone.0200303), [Fisika](https://arxiv.org/abs/1807.04716), [Kimia](https://pubs.acs.org/doi/abs/10.1021/acs.jchemed.7b00907) dan banyak lagi!
 ]
 
 .pull-right[
@@ -221,11 +221,13 @@ class: center, middle
 
 # Keuntungan mengadopsi #SainsTerbuka (1)
 
-* Meningkatkan kualitas riset dan pelaporannya
-* Memungkinkan *networking* dan kolaborasi yang lebih luas
-* Mereformasi cara ilmuwan mengelola relasi (lebih adil, terbuka, dan egaliter)
-* Memperluas dampak riset
-* Menambah motivasi intrinsik
+* Meningkatkan [kualitas riset dan pelaporannya](http://www.collabra.org/article/10.1525/collabra.158/)
+* Memungkinkan *networking* dan [kolaborasi yang lebih luas](https://elifesciences.org/articles/16800)
+* Mereformasi cara [ilmuwan mengelola relasi]() (lebih adil, terbuka, dan egaliter)
+* Memperluas [dampak riset](https://doi.org/10.1080/1047840X.2012.692215)
+* Menambah [motivasi intrinsik peneliti](https://doi.org/10.1177/1745691612459058)
+* Mengakselerasi [inovasi](https://doi.org/10.1177/1745691618767878)
+* Membuat [sains menjadi lebih inklusif](https://linkinghub.elsevier.com/retrieve/pii/S0010027719300617)
 
 ---
 
@@ -253,23 +255,20 @@ class: middle, center, inverse
 
 ---
 
-# Manifesto #SainsTerbuka Airlangga<sup>*</sup>
+# Manifesto #SainsTerbuka Airlangga
 
 * Mendorong peneliti untuk menyadari potensi terjadinya bias kognitif yang berakar dari keterbatasannya pribadi ketika melaksanakan penelitian
 * Menggarisbawahi pentingnya pelatihan metodologi, utamanya bagi peneliti pemula dan mahasiswa
 * Mempromosikan kolaborasi dan pendekatan tim saintis
 * Mempromosikan praktik baik dalam meneliti (*good research practices*)
 * Mendorong peneliti untuk melakukan [pra-registrasi](https://cos.io/prereg/) dan menggunakan format [laporan teregistrasi](https://cos.io/rr/)
-* Menekankan pentingnya peningkatan kualitas pelaporan penelitian (lengkap dan *reproducible*)
-* Mendorong penggunaan piranti lunak dengan prinsip sumber terbuka (*open source*) dan *reproducible* (misalnya [`r fa("r-project")`](https://www.r-project.org/), [`r fa("python")`](https://www.python.org/) atau yang lainnya)
-* Mendorong evaluasi kinerja peneliti dengan menggunakan prinsip transparansi dan keterbukaan (contohnya [Transparency and Openness Promotion (TOP) Guideline](https://cos.io/top/) dari [Center for Open Science](https://cos.io/about/mission/)) tidak sekedar menggunakan metrik proksi, seperti H-Index, JIF, dsb.
+* Menekankan pentingnya peningkatan kualitas pelaporan penelitian (yang lengkap dan *reproducible*)
+* Mendorong penggunaan piranti lunak dengan prinsip sumber terbuka (*open source*) dan *reproducible* (misalnya <a href="https://www.r-project.org" target="_blank"><i class="fab fa-r-project"></i></a>, <a href="https://www.python.org/" target="_blank"><i class="fab fa-python"></i></a> dan yang lainnya)
+* Mendorong evaluasi kinerja peneliti dengan menggunakan prinsip transparansi dan keterbukaan (contohnya [Transparency and Openness Promotion (TOP) Guideline](https://cos.io/top/) dari [Center for Open Science](https://cos.io/about/mission/)) tidak sekadar menggunakan metrik proksi, seperti H-Index, JIF, dsb.
 * Mendorong pembatasan penggunaan metrik proksi dan mendorong pengambil keputusan menggunakan metrik-metrik tersebut secara bertanggung jawab, sesuai dengan [San Fransisco Declaration of Research Assessments (SF-DORA)](https://sfdora.org/read/)
+* Mendorong peneliti untuk lebih banyak melakukan penelitian meta (*systematic review* dan meta-analisis) untuk menyajikan bukti ilmiah yang lebih andal untuk melandasi kebijakan berbasis bukti
 
-.footnote[
-
-[*] Terinspirasi dari [Munafò, M. R., Nosek, B. A., Bishop, D. V., Button, K. S., Chambers, C. D., Du Sert, N. P., ... & Ioannidis, J. P. (2017). A manifesto for reproducible science. Nature Human Behaviour, 1(1), 0021.](https://www.nature.com/articles/s41562-016-0021;)
-
-]
+Terinspirasi dari [Munafò, M. R., Nosek, B. A., Bishop, D. V., Button, K. S., Chambers, C. D., Du Sert, N. P., ... & Ioannidis, J. P. (2017). A manifesto for reproducible science. Nature Human Behaviour, 1(1), 0021.](https://www.nature.com/articles/s41562-016-0021;)
 
 ---
 
