@@ -223,7 +223,7 @@ class: center, middle
 
 * Meningkatkan [kualitas riset dan pelaporannya](http://www.collabra.org/article/10.1525/collabra.158/)
 * Memungkinkan *networking* dan [kolaborasi yang lebih luas](https://elifesciences.org/articles/16800)
-* Mereformasi cara [ilmuwan mengelola relasi]() (lebih adil, terbuka, dan egaliter)
+* Mereformasi cara [ilmuwan mengelola relasi](https://doi.org/10.1186/s13059-015-0669-2) (lebih adil, terbuka, dan egaliter)
 * Memperluas [dampak riset](https://doi.org/10.1080/1047840X.2012.692215)
 * Menambah [motivasi intrinsik peneliti](https://doi.org/10.1177/1745691612459058)
 * Mengakselerasi [inovasi](https://doi.org/10.1177/1745691618767878)
